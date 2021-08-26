@@ -1,7 +1,7 @@
 import nmap
 nmScan = nmap.PortScanner()
 
-nmScan.scan('0.0.0.0-999.999.999.999', '80')
+nmScan.scan('0.0.0.0-239.255.255.255', '80')
 
 for host in nmScan.all_hosts():
      print('IPv4 Address : %s (%s)' % (host, nmScan[host].hostname()))
