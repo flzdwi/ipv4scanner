@@ -4,8 +4,11 @@ OS yang saya rekomendasikan untuk menggunakan script ini adalah Kali Linux (alte
 
 script ini menggunakan modul Python nmap.
 Anda harus menginstal yang berikut ini untuk membuatnya bekerja di Kali Linux:
+
 Langkah 1: Sudo apt install python3-pip
+
 Langkah 2: pip install python-nmap
+
 Langkah 3: python3 ipscanner.py
 
 Cara kerja dari script ini adalah dengan memanfaatkan fitur PortScanner yang ada pada modul Python Nmap.
